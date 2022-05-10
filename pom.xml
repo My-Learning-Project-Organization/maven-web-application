@@ -98,17 +98,17 @@
 	
 	<distributionManagement>
 	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.110.88.42:9980/mithuntechnologies/repository/facebook-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.110.88.42:9980/mithuntechnologies/repository/facebook-snapshot/</url>
-	    </snapshotRepository>
+	<repository>
+	  <id>nexus</id>
+	  <name>My Maven Web Project Releases Repository</name>
+	  <url>http://192.168.0.111:8081/repository/My-Maven-Web-Project-Release/</url>
+	</repository>
+
+	<snapshotRepository>
+	  <id>nexus</id>
+	  <name>My Maven Web Project Snapshot Repository</name>
+	  <url>http://192.168.0.111:8081/repository/My-Maven-Web-Project-Snapshot/</url>
+	</snapshotRepository>
 	    
 	</distributionManagement>
 	
